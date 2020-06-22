@@ -7,6 +7,6 @@ As part of mini project we as a team worked on three projects under <a href = "h
 3.IOT Extensible Framework 
 
 
-To play with the demo video <a href = ""> Tech Machinery </a> 
+To play with the demo video <a href = ""> Click here </a> 
 
 

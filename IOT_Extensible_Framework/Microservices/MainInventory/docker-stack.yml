@@ -1,0 +1,38 @@
+version: '3'
+services:
+  redis-server:
+    image: redis:4.0.6-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./redis:/data
+  maininvetory:
+    image: ujwalkpl/maininventory:6.0.0
+   
+    ports:
+      - "5010:5010"
+    command: python app.py
+    depends_on:
+      - redis-server
+    links:
+      - redis-server
+  inventoryworker:
+    image: ujwalkpl/maininventory:6.0.0
+   
+
+    command: rq worker --url redis://redis-server:6379/1
+    depends_on:
+      - redis-server
+    links:
+      - redis-server
+  register:
+    image: ujwalkpl/register:5.0.0
+    ports:
+      - "5005:5005"
+    depends_on:
+      - redis-server
+
+networks:
+    default:
+        external:
+            name: my-net

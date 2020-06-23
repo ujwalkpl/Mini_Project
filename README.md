@@ -10,8 +10,8 @@ As part of mini project we as a team worked on three projects under <a href = "h
 To play the demo video <a href = "https://drive.google.com/file/d/1d1vF5-VbsqfMcwwst7s9zI7l6zMAc4Wi/view?usp=drivesdk"> Click here </a> 
 
 Team mates - <br>
-<t>Aishwarya N       1MS17IS143
-  R Anurag Pillai   1MS17IS145
-  Raghav MahesHwari 1MS17IS086
-  Ujwal K C         1MS17IS125
+<t>Aishwarya N       1MS17IS143 <br>
+  R Anurag Pillai   1MS17IS145 <br>
+  Raghav MahesHwari 1MS17IS086 <br>
+  Ujwal K C         1MS17IS125 <br>
   

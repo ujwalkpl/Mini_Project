@@ -1,4 +1,4 @@
-# Mini_Project <b> Anti-Counterfeit Application for Trustyfi </b>
+# <b> Anti-Counterfeit Application for Trustyfi </b>
 
 As part of mini project we as a team worked on three projects under <a href = "http://www.trustyfi.com/"> Tech Machinery </a> 
 

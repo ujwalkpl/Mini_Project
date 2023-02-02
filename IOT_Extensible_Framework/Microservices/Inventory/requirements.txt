@@ -11,6 +11,6 @@ mccabe==0.6.1
 pylint==1.8.1
 redis==2.10.6
 six==1.11.0
-Werkzeug==0.14.1
+Werkzeug==0.15.5
 wrapt==1.10.11
 requests
